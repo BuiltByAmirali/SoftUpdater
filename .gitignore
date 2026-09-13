@@ -1,0 +1,29 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+
+# ---- virtual environments (run.bat creates .venv, the 32-bit line uses .venv32) ----
+.venv/
+.venv32/
+venv/
+env/
+
+# ---- build outputs ----
+dist/
+build/app/
+build/log-*.txt
+build/version_info*.txt
+version_info*.txt
+*.spec
+installer/downloaded/
+
+# ---- release artifacts (generated locally, published on GitHub Releases) ----
+SHA256SUMS.txt
+
+# ---- editors / OS ----
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
