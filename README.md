@@ -14,8 +14,7 @@ Free and open source (MIT). No telemetry, no accounts, no ads.
 **English** | [**فارسی**](README.fa.md)
 
 <p>
-  <img src="docs/screenshots/main-en.png" alt="SoftUpdater main window" width="49%" />
-  <img src="docs/screenshots/main-fa.png" alt="SoftUpdater - Persian RTL" width="49%" />
+  <img src="docs/screenshots/main-en.png" alt="SoftUpdater main window" width="100%" />
 </p>
 
 ## Highlights

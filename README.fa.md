@@ -18,8 +18,7 @@ Chrome، Firefox، Edge، VLC، GIMP و ده‌ها برنامه‌ی دیگر؛
 اجرای نصب همیشه با خود شماست.
 
 <p>
-  <img src="docs/screenshots/main-fa.png" alt="SoftUpdater - فارسی" width="49%" />
-  <img src="docs/screenshots/settings-about.png" alt="تنظیمات - درباره" width="49%" />
+  <img src="docs/screenshots/main-fa.png" alt="SoftUpdater - فارسی" width="100%" />
 </p>
 
 ## امکان‌ها
