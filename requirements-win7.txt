@@ -1,0 +1,23 @@
+# ============================================================
+#  SoftUpdater - Windows 7 SP1 / 32-bit compatible build
+#  (used ONLY by build_installer32.bat with Python 3.8 32-bit)
+#
+#  Why PyQt5 and not PySide6? PySide6, Qt 6 and the official
+#  PySide wheels support only Windows 10+ and 64-bit only.
+#  PyQt5 5.15 ships official 32-bit wheels and Qt 5.15 still
+#  runs on Windows 7 SP1 - so this stack targets:
+#    Windows 7 SP1 / 8 / 8.1 / 10 / 11 - 32-bit AND 64-bit.
+#
+#  Every version is pinned to the newest release that still
+#  publishes Windows 32-bit wheels for Python 3.8 (each one
+#  was verified to exist on PyPI). PyInstaller is pinned to
+#  5.13.2 because version 6 dropped Windows 7 support.
+#  The MSVC runtime DLLs are bundled inside the PyQt5 wheel,
+#  so nothing else needs to be preinstalled on Windows 7.
+# ============================================================
+PyQt5==5.15.11
+PyQt5-Qt5==5.15.2
+PyQt5-sip==12.15.0
+requests==2.32.3
+packaging==24.2
+pyinstaller==5.13.2
